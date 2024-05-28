@@ -12,3 +12,15 @@ def create_odd_value_array(rows, columns):
 def print_array(array):
     for row in array:
         print(" ".join(map(str, row)))
+
+def main():
+    rows = int(input("Enter the number of rows: "))
+    columns = int(input("Enter the number of columns: "))
+
+array = create_odd_value_array(rows, columns)
+
+print("\nThe array filled with odd values:")
+print_array(array)
+
+if __name__ == "__main__":
+    main()
