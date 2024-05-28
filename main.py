@@ -8,3 +8,7 @@ def create_odd_value_array(rows, columns):
             odd_value += 2
         array.append(row)
     return array
+
+def print_array(array):
+    for row in array:
+        print(" ".join(map(str, row)))
