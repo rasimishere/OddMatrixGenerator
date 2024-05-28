@@ -22,5 +22,8 @@ array = create_odd_value_array(rows, columns)
 print("\nThe array filled with odd values:")
 print_array(array)
 
+del array
+print("\nArray has been removed from memory.")
+
 if __name__ == "__main__":
     main()
